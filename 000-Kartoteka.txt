@@ -1,0 +1,8 @@
+[ARRAYS]
+	1. Contains Duplicate (217) - Sort and see if current == previous
+	2. Valid Anagram (242) - vector of counters for each character
+	3. Two Sum (1) - make a hashmap and look for target-current inside, if not found - insert.
+	4. Group Anagrams (49) - hashmap (string -> vector of strings)
+	5. Top K Freq Elements (347) - hashmap (number -> freq), insert each in priority queue and pop first k.
+	6. Product of Array Except Self (238) - calculate total product without zeros, count number of 0, split in 3 cases.
+	7. Valid Sudoku (36) - 3 vectors of hashmaps for rows, columns and subsquares. The index func for subsquares is[i/3*3+j/3]
