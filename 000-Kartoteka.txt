@@ -13,4 +13,5 @@
 	1. Valid Palindrome (125) - (LOW AND HIGH) see if every first and last num is alphanumeric and compare to each other *tolower()*. if different - return false.
 	2. Two Sum II (167) - (LOW AND HIGH) see if every low and high make up the target, if not, move accordingly.
 	3. 3Sum (15) - skip if every current == previous. Given the current, apply Two Sum II.
-	4. Container with Most Water (11) - 
+	4. Container with Most Water (11) - (LOW AND HIGH) check current vs max volume. The pontential max cap at every point is determined by current highest wall. Move low and high accordingly.
+	5. Trapping Rain Water 
