@@ -14,4 +14,9 @@
 	2. Two Sum II (167) - (LOW AND HIGH) see if every low and high make up the target, if not, move accordingly.
 	3. 3Sum (15) - skip if every current == previous. Given the current, apply Two Sum II.
 	4. Container with Most Water (11) - (LOW AND HIGH) check current vs max volume. The pontential max cap at every point is determined by current highest wall. Move low and high accordingly.
-	5. Trapping Rain Water 
+	5. Trapping Rain Water (42) - (LOW AND HIGH). Check which wall is higher (left or right) and move the opposite, count difference between heights and add to volume, repeat until >= wall is found.
+
+
+[Sliding Window]
+	1. Best Time to Buy and Sell Stock (121) - l=0, r=1. If profit - slide r to the right and update max profit. Otherwise, move l=r as it is now a new low.
+
