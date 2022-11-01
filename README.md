@@ -1,4 +1,4 @@
-##ARRAYS
+## ARRAYS
 
 
 	1. Contains Duplicate (217) - Sort and see if current == previous
@@ -11,7 +11,7 @@
 	8. Longest Consecutive Sequence (128) - populate hash set, interate each leftmost num in set and count conseq elements. Figure the max.
 	
 
-##Two Pointers
+## Two Pointers
 
 
 	1. Valid Palindrome (125) - (LOW AND HIGH) see if every first and last num is alphanumeric and compare to each other *tolower()*. if different - return false.
@@ -21,7 +21,7 @@
 	5. Trapping Rain Water (42) - (LOW AND HIGH). Check which wall is higher (left or right) and move the opposite, count difference between heights and add to volume, repeat until >= wall is found.
 
 
-##Sliding Window
+## Sliding Window
 
 
 	1. Best Time to Buy and Sell Stock (121) - l=0, r=1. If profit - slide r to the right and update max profit. Otherwise, move l=r as it is now a new low.
@@ -32,7 +32,7 @@
 	6. Sliding Window Maximum (239) - Deque sorts increasingly, store indices in the deque and check for every last indice that it's outdated. check for every new max.
 
 
-##Stack
+## Stack
 
 
 	1. Valid Parenthesis (20) - for every closed - check if top of the stack is the same open. If not, false. If open, push open on top of the stack.
